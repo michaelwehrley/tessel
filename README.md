@@ -48,7 +48,7 @@ INFO Firmware update complete!
 INFO Updated RobotLiam from 0.0.12 to 0.2.0
 ```
 
-### Provision (public and private keys)
+### [Provision](https://www.google.com/search?q=provision+define) (public and private keys)
 - On Tessel 2, you can run and push your code over Wifi, not just USB. Let’s get that set up. Run:
 ```
 $ t2 provision
