@@ -1,16 +1,21 @@
 {
   "name": "tessel",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "to get my Tessel2 working..",
   "main": "index.js",
+  "dependencies": {
+    "ambient-attx4": "^0.2.11",
+    "johnny-five": "^1.0.0",
+    "tessel-io": "^1.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "johnny-five": "^1.0.0",
-    "tessel-io": "^1.2.0"
-  }
+  "repository": "git://github.com/michaelwehrley/tessel.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
 }
