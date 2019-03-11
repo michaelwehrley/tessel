@@ -76,3 +76,22 @@ After Working Helpful Commands:
 ### Projects
 
 1. http://tessel.github.io/t2-start/blinky.html
+
+#### RAM vs 
+
+Run your code in Tessel’s RAM: `$ t2 run blinky.js`
+
+
+Deploy file to Tessel:
+```
+$ t2 push blinky.js 
+INFO Looking for your Tessel...
+INFO Connected to RobotLiam.
+INFO Building project.
+INFO Writing project to Flash on RobotLiam (183.296 kB)...
+INFO Deployed.
+INFO Your Tessel may now be untethered.
+INFO The application will run whenever Tessel boots up.
+INFO      To remove this application, use "t2 erase".
+INFO Running blinky.js...
+```
