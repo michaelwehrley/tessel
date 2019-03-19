@@ -95,3 +95,10 @@ INFO The application will run whenever Tessel boots up.
 INFO      To remove this application, use "t2 erase".
 INFO Running blinky.js...
 ```
+
+t2 restore
+t2 update
+t2 wifi -n [] -p []
+t2 list; t2 provision
+
+*PWM* Pulsating Width Modulation
